@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="burger_website.css">
+    <title>A new website</title>
+</head>
+<body>
+    
+    <div  class="header" id="headerDiv">
+        <div class="mobileIcon" onclick="toggle()">
+            <img src="resimler/menu.png" width="40px" height="40px">
+        </div>
+        <div>
+            <img class="headerimg" src="resimler/burger.png" alt="">
+        </div>
+        <div id="navDiv" class="mobileLinkDisplay">
+            <div class="mobileLink">
+                <a class="headerlink" href="">Home</a>
+                <a class="headerlink" href="">About</a>
+                <a class="headerlink" href="">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="text">   
+            <h2>Super banner</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quod error libero animi quam, dolorum minima nostrum inventore saepe amet ex impedit vero fugiat recusandae.</p>
+        </div>    
+    </div>
+    <div class="flexx">
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="flexx">
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        <div class="imgResDiv">
+            <div class="imgDiv">
+                <img src="resimler/burger.jpg" alt="">
+                <h1>Kasap Burger</h1>
+                <p>Bol malzemeli efsane burger</p>
+                <div class="pricePurchaseDiv">
+                    <p class="price">45.99 <i>TL</i></p>
+                    <button class="purchase">Satın al</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="">Anasayfa</a></li>
+            <li><a href="">Hakkımızda</a></li>
+            <li><a href="">İletişim</a></li>
+        </ul>
+        <img src="resimler/burger.png" width="80px">
+        <ul>
+            <li><a href="">Burgerler</a></li>
+            <li><a href="">Restoranlar</a></li>
+            <li><a href="">Kariyer</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggle() {
+        let x = document.getElementById("navDiv");
+        let y = document.getElementById("headerDiv");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.height = "auto"
+        } else {
+            x.style.display = "none";
+        }
+        }
+    </script>
+
+</body>
+</html>
